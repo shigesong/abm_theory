@@ -25,7 +25,6 @@ globals [
 ]
 
 breed [doors door]
-breed [prizes prize]
 
 doors-own [
   door-number
@@ -166,6 +165,9 @@ to-report get-door-to-open
   ;; Host must open a door that:
   ;; 1. Is not the contestant's choice
   ;; 2. Does not have the car
+  ;; Note: There will always be at least one such door since:
+  ;; - If contestant chose the car: 2 goat doors are available
+  ;; - If contestant chose a goat: 1 goat door is available
   
   let available-doors [door-number] of doors with [
     door-number != contestant-choice and not has-car?
