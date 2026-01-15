@@ -11,6 +11,7 @@ This repository contains Agent-Based Modeling (ABM) simulations and experiments.
 #### How to Use
 
 1. Open `monty_hall.nlogo` in NetLogo (download from https://ccl.northwestern.edu/netlogo/)
+   - **Note:** Requires NetLogo 6.0 or later for proper emoji display (🚗 for car, 🐐 for goat)
 2. Click "Setup" to initialize the simulation
 3. Choose a strategy: "stay" or "switch"
 4. Click "Play One" to see a single game, or "Play Multiple" to run many trials

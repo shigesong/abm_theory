@@ -491,6 +491,8 @@ By switching, you essentially get the combined probability of both other doors (
 
 ## HOW TO USE IT
 
+**Requirements:** NetLogo 6.0 or later (for emoji support: 🚗 car, 🐐 goat)
+
 1. **Setup**: Click to initialize the simulation
 2. **Choose Strategy**: Select either "stay" or "switch"
 3. **Play One**: Play a single game to see the step-by-step process
