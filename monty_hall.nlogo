@@ -534,7 +534,7 @@ Some ideas for extensions:
 ## NETLOGO FEATURES
 
 This model demonstrates:
-- Use of breeds (doors and prizes)
+- Use of breeds (doors)
 - Global variables for game state and statistics
 - Conditional logic for game rules
 - Visual feedback with colors and labels
